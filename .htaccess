@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# If the request does not correspond to a file or a directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirect the request to a specific file or script
+RewriteRule ^(.*)$ index.php [L]

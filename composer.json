@@ -1,0 +1,15 @@
+{
+    "name": "yosicare/task",
+    "autoload": {
+        "psr-4": {
+            "Yosicare\\Task\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sanil-nath",
+            "email": "mambatta.sanil@gmail.com"
+        }
+    ],
+    "require": {}
+}
